@@ -1,0 +1,76 @@
+body {
+    font-size:18px;
+    overflow-x: hidden!important;
+    position: relative;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #ffd4f7;
+    height: 110vh;
+    width: 100%;
+}
+
+#typing-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .35fr .15fr;
+    justify-items: center;
+    align-items:center;
+}
+
+#title {
+    margin-top: 2rem;;
+    font-family: 'Dancing Script', cursive;
+    font-size: 8rem;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;    
+}
+
+#card-div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 3rem;
+    justify-items: center;
+    align-items:center;
+}
+
+.card {
+    text-align: center;
+}
+
+img {
+    width: 45%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#more {
+    width: 100%;
+    text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: black;
+}
+
+footer {
+    text-align: center; 
+    vertical-align: middle;
+    line-height: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
