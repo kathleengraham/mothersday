@@ -48,13 +48,21 @@ h1 {
 
 .card {
     text-align: center;
-}
-
-img {
-    width: 45%;
+    max-width: 40%;
     display: block;
     height: auto;
     margin: 0 auto;
+}
+
+#crossword-link {
+    display: block;
+    float: left;
+    max-width: 100%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 #more {
