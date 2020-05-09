@@ -5,38 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="crossword.css">
     <title>Mother's Day Crossword</title>
 </head>
 <body>
-    <header>
-        <div id="title-div">
-            <h1 id="title">Mother's Day Crossword Puzzle</h1>
+    <container class=container-fluid>
+        <div class="row text-center">
+            <div class="col" id="title-div">
+                <h1 id="title">Mother's Day Crossword Puzzle</h1>
+            </div>
         </div>
-    </header>
     
-    <div id="card-div">
-        <div class="card">
-            <div>
-                <h3>Across</h3>
-                <li>4. </li>
-                <li>6. </li>
-                <li>8. </li>
-                <li>9. </li>
-                <li>10. </li>
+        <div id="card-div">
+            <div class="row text-center justify-content-center align-items-center">
+                <div class="col-6">
+                    <div class="row text-center">
+                        <div class="col across-down">
+                            <h3>Across</h3>
+                            <li>4. a phrase you say often</li>
+                            <li>6. something you taught me to be</li>
+                            <li>8. something I wish we could do more of together</li>
+                            <li>9. my favorite thing about you</li>
+                            <li>10. what Martial calls you</li>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col across-down">
+                            <h3>Down</h3>
+                            <li>1. what Olivia Claire calls you</li>
+                            <li>2. my favorite thing we do together</li>
+                            <li>3. I just called to say ___ ______ ____</li>
+                            <li>4. named of today</li>
+                            <li>7. what I call you</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <img src="images/crossword.png" alt="crossword puzzle">
+                </div>
             </div>
         </div>
-        <div class="card">
-            <div>
-                <h3>Down</h3>
-                <li>1. </li>
-                <li>2. </li>
-                <li>3. </li>
-                <li>4. </li>
-                <li>7. </li>
-            </div>
-        </div>
-    </div>
+    </container>
 
 </body>
 

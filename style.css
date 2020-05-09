@@ -36,35 +36,6 @@ h1 {
     font-size: 4rem;    
 }
 
-#card-div {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 3rem;
-    justify-items: center;
-    align-items:center;
-}
-
-.card {
-    text-align: center;
-    max-width: 40%;
-    display: block;
-    height: auto;
-    margin: 0 auto;
-}
-
-#crossword-link {
-    display: block;
-    float: left;
-    max-width: 100%;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-}
-
 #more {
     width: 100%;
     text-align: center;
