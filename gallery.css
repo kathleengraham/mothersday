@@ -11,3 +11,31 @@ html {
     margin-bottom: 4rem;
     font-family: 'Dancing Script', cursive;
 }
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+img {
+    width:100%;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 10s;
+    animation-name: fade;
+    animation-duration: 10s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: 60%} 
+    to {opacity: 100%}
+}
+
+@keyframes fade {
+    from {opacity: 70%} 
+    to {opacity: 100%}
+}
+

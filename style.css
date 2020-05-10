@@ -19,6 +19,22 @@ header {
     z-index:-10;
 }
 
+#title {
+    font-size: 8rem;
+}
+
+#title-div {
+    margin-top: 2rem;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 4rem;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
+
 #typing-div {
     position: absolute;
     top: 0;
@@ -32,19 +48,8 @@ header {
     align-items:center;
 }
 
-#title {
-    margin-top: 2rem;;
-    font-family: 'Dancing Script', cursive;
-    font-size: 8rem;
-}
-
-h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 4rem;    
-}
-
 #card-div {
-    padding-left: 2.5rem;
+    padding: 4rem 0rem 3rem 2.5rem;
 }
 
 .quarters {
@@ -59,9 +64,9 @@ h1 {
 footer {
     text-align: center; 
     vertical-align: middle;
-    line-height: 50px;
+    line-height: 60px;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: white;
+    padding-bottom: 1rem;
 }
