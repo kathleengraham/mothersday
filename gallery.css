@@ -12,10 +12,19 @@ html {
     font-family: 'Dancing Script', cursive;
 }
 
+#leftquotes, #rightquotes {
+    margin-top: 3rem;
+}
+
+.outer-row {
+    padding: 2rem;
+}
+
 .slideshow-container {
-    max-width: 1000px;
     position: relative;
     margin: auto;
+    max-width: 75%;
+    padding: 0rem 1rem 3rem 1rem;
 }
 
 img {
