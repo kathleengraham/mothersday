@@ -1,15 +1,21 @@
+html {
+    margin:0;
+    overflow-x: hidden!important;
+}
 body {
     font-size:18px;
-    overflow-x: hidden!important;
-    position: relative;
-    margin:0;
+    position: top;
     font-family: 'Montserrat', sans-serif;
 }
 
 header {
-    background-color: #ffd4f7;
+    background-image: url(images/hearts.jpg);
+    background-size: cover!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
     height: 110vh;
-    width: 100%;
+    width: 101%;
+    z-index:-10;
 }
 
 #typing-div {
@@ -20,7 +26,7 @@ header {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: .35fr .15fr;
+    grid-template-rows: .65fr .3fr;
     justify-items: center;
     align-items:center;
 }
@@ -36,13 +42,17 @@ h1 {
     font-size: 4rem;    
 }
 
-#more {
-    width: 100%;
-    text-align: center;
+#card-div {
+    padding-left: 2.5rem;
 }
 
-a:link, a:visited, a:hover, a:active {
-    color: black;
+.quarters {
+    padding: 3rem;
+}
+
+.img-row {
+    display: flex;
+    height: 100%;
 }
 
 footer {
@@ -52,4 +62,5 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    background-color: white;
 }
