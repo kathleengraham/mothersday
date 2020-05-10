@@ -6,47 +6,75 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="crossword.css">
+    <link rel="stylesheet" href="crossword.css" media="print" onload="this.media='all'">
     <title>Mother's Day Crossword</title>
 </head>
 <body>
-    <container class=container-fluid>
+    <div class=container-fluid>
+
         <div class="row text-center">
             <div class="col" id="title-div">
                 <h1 id="title">Mother's Day Crossword Puzzle</h1>
             </div>
         </div>
     
-        <div id="card-div">
-            <div class="row text-center justify-content-center align-items-center">
-                <div class="col-6">
-                    <div class="row text-center">
-                        <div class="col across-down">
-                            <h3>Across</h3>
-                            <li>4. a phrase you say often</li>
-                            <li>6. something you taught me to be</li>
-                            <li>8. something I wish we could do more of together</li>
-                            <li>9. my favorite thing about you</li>
-                            <li>10. what Martial calls you</li>
+
+        <div class="row justify-content-between align-items-center">
+
+            <!-- left column -->
+            <div class="col-4 hint-column">
+                
+                <div class="row across-row align-items-center">
+                    
+                    <div class="col across-col">
+                        <div class="row text-center">
+                            <div class="col">
+                                <h3><u>Across</u></h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col hints">
+                                <li>4. a phrase you say often</li>
+                                <li>6. something you taught me to be</li>
+                                <li>8. something I wish we could do more of together</li>
+                                <li>9. my favorite thing about you</li>
+                                <li>10. what Martial calls you</li>
+                            </div>
                         </div>
                     </div>
-                    <div class="row text-center">
-                        <div class="col across-down">
-                            <h3>Down</h3>
-                            <li>1. what Olivia Claire calls you</li>
-                            <li>2. my favorite thing we do together</li>
-                            <li>3. I just called to say ___ ______ ____</li>
-                            <li>4. named of today</li>
-                            <li>7. what I call you</li>
-                        </div>
-                    </div>
+
                 </div>
-                <div class="col-6">
-                    <img src="images/crossword.png" alt="crossword puzzle">
+                
+                <div class="row down-row align-items-center">
+
+                    <div class="col down-col">
+                        <div class="row text-center">
+                            <div class="col">
+                                <h3><u>Down</u></h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col hints">
+                                <li>1. what Olivia Claire calls you</li>
+                                <li>2. my favorite thing we do together</li>
+                                <li>3. I just called to say ___ ______ ____</li>
+                                <li>4. named of today</li>
+                                <li>7. what I call you</li>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
-    </container>
+
+
+            <!-- right column -->
+            <div class="col-7 puzzle-column">
+                <img src="images/crossword.png" alt="crossword puzzle">
+            </div>
+
+
+    </div>
 
 </body>
 

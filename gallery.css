@@ -1,0 +1,13 @@
+html {
+    font-size:18px;
+    overflow-x: hidden!important;
+    position: relative;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+    font-family: 'Dancing Script', cursive;
+}

@@ -1,4 +1,4 @@
-body {
+html {
     font-size:18px;
     overflow-x: hidden!important;
     position: relative;
@@ -6,19 +6,48 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-image: url(images/crossword-bg.jpg);
+    background-size: cover!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    height: 110vh;
+    width: 101%;
+}
+
 #title {
-    margin-top: 1rem;
+    padding-top: 2rem;
     margin-bottom: 4rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.across-row, .down-row {
+    background-color: white;
+    border-radius: 2rem;
+    opacity: 90%;
+}
+
+.hints {
+    padding: 2rem 0rem 2rem 4rem;
 }
 
 li {
     list-style: none;
 }
 
-img {
-    text-align: center;
+.hint-column {
+    margin-top: 1rem;
+    margin-left: 3rem;
 }
 
-.across-down {
-    padding: 5rem;
+.across-col, .down-col {
+    padding-top: 2rem;;
+}
+
+.across-row, .down-row {
+    margin: 2rem;
+}
+
+.puzzle-column {
+    padding-top: 1.5rem;
 }
