@@ -1,5 +1,5 @@
 html {
-    font-size:18px;
+    font-size:14px;
     overflow-x: hidden!important;
     position: relative;
     margin:0;
@@ -27,8 +27,19 @@ html {
     padding: 0rem 1rem 3rem 1rem;
 }
 
+.quotes {
+    padding-top: 2rem;
+}
+
 img {
-    width:100%;
+    max-width:90%;
+    max-height:60%;
+}
+
+p {
+    padding: 1rem;
+    background-color: rgba(255, 182, 193, 0.3);
+    border-radius: 2rem;
 }
 
 .fade {
@@ -47,4 +58,3 @@ img {
     from {opacity: 70%} 
     to {opacity: 100%}
 }
-
