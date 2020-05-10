@@ -10,6 +10,10 @@
     <title>Mother's Day Crossword</title>
 </head>
 <body>
+
+    <!-- loading div -->
+    <div id="loader" class="center"></div> 
+
     <div class=container-fluid>
 
         <div class="row text-center">
@@ -75,6 +79,22 @@
 
 
     </div>
+
+    <script> 
+        document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector( 
+                  "body").style.visibility = "hidden"; 
+                document.querySelector( 
+                  "#loader").style.visibility = "visible"; 
+            } else { 
+                document.querySelector( 
+                  "#loader").style.display = "none"; 
+                document.querySelector( 
+                  "body").style.visibility = "visible"; 
+            } 
+        }; 
+    </script> 
 
 </body>
 

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="gallery.css" media="print" onload="this.media='all'">
+    <title>Mother's Day Messages</title>
+</head>
+<body>
+
+    <!-- loading div -->
+    <div id="loader" class="center"></div> 
+
+    <div class="container-fluid">
+        <!-- outer row -->
+        <div class="row justify-content-around outer-row">
+
+            <!-- left column -->
+            <div id="leftquotes" class="col-3 quotes">
+                
+                <!-- first row of left column -->
+                <!-- <div class="row"> -->
+                    <!-- <div class="col oliviaclaire"> -->
+                        <!-- <p><br></p> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+
+                <!-- second row of left column -->
+                <div class="row">
+                    <div class="col cherie">
+                        <p>I am so thankful for you and all you have done for me and my little family. By far, the most important gift you have given us is your obedience to be faithful in sharing the Truth. As a little girl, I remember you sharing with me who Jesus was and how He died for our sins and grants us eternal life with Him. I'm blessed that I feel like I have never known a day when I didn't know that God love me and saved me, and He used you to accomplish this! How special! You have always supported me, encouraged me, and prayed for me. Thank you for always trying to point me towards the eternal! There is no greater gift a mom could give her children than a deep-rooted trust in Jesus and His Truths. Thank you for being my frined, teacher, and cheerleader. My joys are doubled and my sorrows seem less heavy when I share them with you.<br>- Cherie
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- third row of left column -->
+                <div class="row">
+                    <div class="col martial">
+                        <p>I can never thank God enough for giving us such a wonderful Maman. You are perfect in every role that you play be it a mother or mother-in-law or grandma. Thank you for giving me my beautiful wife and for being the sweetest mother-in-law ever!<br>- Martial</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- middle column -->
+            <div class="col-5 gallery-quotes">
+
+                <!-- first row of middle column; also the title of the page -->
+                <div class="row text-center justify-content-around">
+                    <div class="col">
+                        <h1 id="title">Mother's Day Messages</h1>
+                    </div>
+                </div>
+
+                <!-- second row of middle column -->
+                <div class="row text-center oc-video justify-content-center">
+                    <div class="col justify-content-center">
+                        <video controls>
+                            <source src="images/OC.mov" type="video/mp4"/>
+                        </video>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- right column -->
+            <div id="rightquotes" class="col-3 my-auto quotes">
+
+                <!-- first row of right column -->
+                <div class="row">
+                    <div class="col dad">
+                        <p>Who'd have thought 45 years ago, not only did God plan for you to become my wife, but the mother of my two sweet daughters. I couldn't ask for a better wife, friend, helper, and mother of our children. You are truly the princess in my life, and I love you very much!<br>Quote</p>
+                    </div>
+                </div>
+
+                <!-- second row of right column -->
+                <div class="row">
+                    <div class="col robert">
+                        <p>Thank you for always being willing and ready to help me tackle any project I have going on no matter what it is. Even though I say, "I've got this", I always enjoy and love working with you. You are the BEST mother-in-law a man/son could ask for. I hope there are many more projects we can work on together. I love you!<br>- Robert</p>
+                    </div>
+                </div>
+                
+                <!-- third row of right column -->
+                <div class="row">
+                    <div class="col kat">
+                        <p>One of my favorite memories of you is us laughing big laughs when singing "God loves a joyful giver HA! HA! HA! HA! HA!!!"<br>- Kathleen</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script> 
+        document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector( 
+                  "body").style.visibility = "hidden"; 
+                document.querySelector( 
+                  "#loader").style.visibility = "visible"; 
+            } else { 
+                document.querySelector( 
+                  "#loader").style.display = "none"; 
+                document.querySelector( 
+                  "body").style.visibility = "visible"; 
+            } 
+        }; 
+    </script> 
+
+    <script src="gallery.js"></script>
+
+</body>
+
+</html>
